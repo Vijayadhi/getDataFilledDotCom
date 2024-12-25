@@ -102,9 +102,9 @@ function FooterComponnet() {
                 {/* <!-- Section: Links  --> */}
 
                 {/* <!-- Copyright --> */}
-                <div class="text-center p-4" style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}>
-                    © 2021 Copyright:
-                    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+                <div class="text-center p-4" style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}> 
+                    © {new Date().getFullYear()} All Rights Reserverd<br/>
+                    <a class="text-reset fw-bold" href="https://portfolio-vigneshwaran.netlify.app">Site Brought to Live By Omega Computers &amp; Software Solutions</a>
                 </div>
                 {/* <!-- Copyright --> */}
             </footer>

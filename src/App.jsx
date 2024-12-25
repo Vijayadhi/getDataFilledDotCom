@@ -23,7 +23,7 @@ function App() {
     height: '',
     skin_color: '',
     dot: '',
-    birth: '',
+    // birth: '',
     lagnam: '',
     caste: '',
     birth: '',

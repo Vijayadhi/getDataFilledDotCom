@@ -1,0 +1,5 @@
+[[redirects]]
+  # Catch-all rule for client-side routing
+  from = "/*"
+  to = "/index.html"
+  status = 200

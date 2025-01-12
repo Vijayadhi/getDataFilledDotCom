@@ -1,124 +1,156 @@
 import React from 'react';
 import "../assets/css/fillData.css"
 import "../assets/css/vars.css"
-import rectagle_1 from "../assets/fillData/rectangle-10.svg"
 
+import jothidamImage from "../assets/fillData/jothidam.jpg";
+// import image1950026 from "../assets/fillData/1950026.png";
+import rectagle_1 from "../assets/fillData/rectangle-10.svg";
+import vector_1 from "../assets/fillData/vector-10.svg";
+import untitled_1 from "../assets/fillData/2cc87b5fad166944e192b2b04dee9a34.png";
+import ganesha from "../assets/fillData/ganesha.png";
+import pillaiyar_suli from "../assets/fillData/5e08fb3676f1c66803b4d235_pillaiyar_suli-2873035222.png";
+import vector_11 from "../assets/fillData/vector-11.svg";
+import vector_21 from "../assets/fillData/vector-21.svg";
+import vector_31 from "../assets/fillData/vector-31.svg";
+import vector_41 from "../assets/fillData/vector-41.svg";
+import vector_51 from "../assets/fillData/vector-51.svg";
+import vector_61 from "../assets/fillData/vector-61.svg";
+import vector_71 from "../assets/fillData/vector-71.svg";
+import vector_81 from "../assets/fillData/vector-81.svg";
+import vector_91 from "../assets/fillData/vector-91.svg";
+import vector_101 from "../assets/fillData/vector-101.svg";
+import vector_111 from "../assets/fillData/vector-111.svg";
+import vector_121 from "../assets/fillData/vector-121.svg";
+import vector_131 from "../assets/fillData/vector-131.svg";
+import vector_141 from "../assets/fillData/vector-141.svg";
+import vector_151 from "../assets/fillData/vector-151.svg";
+import vector_161 from "../assets/fillData/vector-161.svg";
+import vector_171 from "../assets/fillData/vector-171.svg";
+import vector_181 from "../assets/fillData/vector-181.svg";
+import vector_191 from "../assets/fillData/vector-191.svg";
+import vector_201 from "../assets/fillData/vector-201.svg";
+import vector_211 from "../assets/fillData/vector-211.svg";
+import vector_221 from "../assets/fillData/vector-221.svg";
+import vector_231 from "../assets/fillData/vector-231.svg";
+import vector_241 from "../assets/fillData/vector-241.svg";
+import vector_251 from "../assets/fillData/vector-251.svg";
+import vector_261 from "../assets/fillData/vector-261.svg";
+import vector_271 from "../assets/fillData/vector-271.svg";
+import vector_281 from "../assets/fillData/vector-281.svg";
+import vector_291 from "../assets/fillData/vector-291.svg";
+import vector_301 from "../assets/fillData/vector-301.svg";
+import vector_311 from "../assets/fillData/vector-311.svg";
+import vector_321 from "../assets/fillData/vector-321.svg";
+import vector_331 from "../assets/fillData/vector-331.svg";
+import vector_341 from "../assets/fillData/vector-341.svg";
+import vector_351 from "../assets/fillData/vector-351.svg";
+import vector_361 from "../assets/fillData/vector-361.svg";
+import vector_371 from "../assets/fillData/vector-371.svg";
+import vector_381 from "../assets/fillData/vector-381.svg";
+import vector_391 from "../assets/fillData/vector-391.svg";
+import vector_401 from "../assets/fillData/vector-401.svg";
+import vector_411 from "../assets/fillData/vector-411.svg";
+import vector_421 from "../assets/fillData/vector-421.svg";
+import vector_431 from "../assets/fillData/vector-431.svg";
+import vector_441 from "../assets/fillData/vector-441.svg";
+import vector_451 from "../assets/fillData/vector-451.svg";
+import vector_461 from "../assets/fillData/vector-461.svg";
+import vector_471 from "../assets/fillData/vector-471.svg";
+import vector_481 from "../assets/fillData/vector-481.svg";
+import vector_491 from "../assets/fillData/vector-491.svg";
+import image1950026 from "../assets/fillData/1950026.png";
+import image7f231f5f from "../assets/fillData/7f231f5f63977976f1dfa0d94a92c1cd.png";
+import image1541664 from "../assets/fillData/1541664.png";
+import vector500 from "../assets/fillData/vector-500.svg";
+import vector510 from "../assets/fillData/vector-510.svg";
+import vector520 from "../assets/fillData/vector-520.svg";
+import vector530 from "../assets/fillData/vector-530.svg";
+import vector540 from "../assets/fillData/vector-540.svg";
+import vector550 from "../assets/fillData/vector-550.svg";
+import vector560 from "../assets/fillData/vector-560.svg";
+import vector570 from "../assets/fillData/vector-570.svg";
+import vector580 from "../assets/fillData/vector-580.svg";
+import vector590 from "../assets/fillData/vector-590.svg";
+import vector600 from "../assets/fillData/vector-600.svg";
+import vector610 from "../assets/fillData/vector-610.svg";
+import vector620 from "../assets/fillData/vector-620.svg";
+import vector630 from "../assets/fillData/vector-630.svg";
+import vector640 from "../assets/fillData/vector-640.svg";
+import vector650 from "../assets/fillData/vector-650.svg";
+import image84f7be2f from "../assets/fillData/84f7be2f8db3f93c483d1a65a755025a.png";
+
+
+
+import rectangle_1 from "../assets/fillData/rectangle-10.svg";
+import untitled_1_jkj_1 from "../assets/fillData/2cc87b5fad166944e192b2b04dee9a34.png";
 function PrintDataComponent({ data }) {
     const imagePath = data.profileImage; // Your image path stored separately
-    console.log(imagePath);   
-    
+    console.log(imagePath);
+
     return (
         <>
             <div className="a-4-1">
                 <div className="frame-1">
                     <img className="rectangle-1" src={rectagle_1} />
-                    <img className="untitled-1-jkj-1" src="/src/assets/fillData/2cc87b5fad166944e192b2b04dee9a34.png" />
-                    <img className="vector-1" src="/src/assets/fillData/vector-10.svg" />
-                    <img className="vector-2" src="/src/assets/fillData/vector-20.svg" />
-                    <img className="vector-3" src="/src/assets/fillData/vector-30.svg" />
-                    <img className="vector-4" src="/src/assets/fillData/vector-40.svg" />
-                    <img className="vector-5" src="/src/assets/fillData/vector-50.svg" />
-                    <img className="vector-6" src="/src/assets/fillData/vector-60.svg" />
-                    <img className="vector-7" src="/src/assets/fillData/vector-70.svg" />
-                    <img className="vector-8" src="/src/assets/fillData/vector-80.svg" />
-                    <img className="vector-9" src="/src/assets/fillData/vector-90.svg" />
-                    <img className="vector-10" src="/src/assets/fillData/vector-100.svg" />
-                    <img className="vector-11" src="/src/assets/fillData/vector-110.svg" />
-                    <img className="vector-12" src="/src/assets/fillData/vector-120.svg" />
-                    <img className="vector-13" src="/src/assets/fillData/vector-130.svg" />
-                    <img className="vector-14" src="/src/assets/fillData/vector-140.svg" />
-                    <img className="vector-15" src="/src/assets/fillData/vector-150.svg" />
-                    <img className="vector-16" src="/src/assets/fillData/vector-160.svg" />
-                    <img className="vector-17" src="/src/assets/fillData/vector-170.svg" />
-                    <img className="vector-18" src="/src/assets/fillData/vector-180.svg" />
-                    <img className="vector-19" src="/src/assets/fillData/vector-190.svg" />
-                    <img className="vector-20" src="/src/assets/fillData/vector-200.svg" />
-                    <img className="vector-21" src="/src/assets/fillData/vector-210.svg" />
-                    <img className="vector-22" src="/src/assets/fillData/vector-220.svg" />
-                    <img className="vector-23" src="/src/assets/fillData/vector-230.svg" />
-                    <img className="vector-24" src="/src/assets/fillData/vector-240.svg" />
-                    <img className="vector-25" src="/src/assets/fillData/vector-250.svg" />
-                    <img className="vector-26" src="/src/assets/fillData/vector-260.svg" />
-                    <img className="vector-27" src="/src/assets/fillData/vector-270.svg" />
-                    <img className="vector-28" src="/src/assets/fillData/vector-280.svg" />
-                    <img className="vector-29" src="/src/assets/fillData/vector-290.svg" />
-                    <img className="vector-30" src="/src/assets/fillData/vector-300.svg" />
-                    <img className="vector-31" src="/src/assets/fillData/vector-310.svg" />
-                    <img className="vector-32" src="/src/assets/fillData/vector-320.svg" />
-                    <img className="vector-33" src="/src/assets/fillData/vector-330.svg" />
-                    <img className="vector-34" src="/src/assets/fillData/vector-340.svg" />
-                    <img className="vector-35" src="/src/assets/fillData/vector-350.svg" />
-                    <img className="vector-36" src="/src/assets/fillData/vector-360.svg" />
-                    <img className="vector-37" src="/src/assets/fillData/vector-370.svg" />
-                    <img className="vector-38" src="/src/assets/fillData/vector-380.svg" />
-                    <img className="vector-39" src="/src/assets/fillData/vector-390.svg" />
-                    <img className="vector-40" src="/src/assets/fillData/vector-400.svg" />
-                    <img className="vector-41" src="/src/assets/fillData/vector-410.svg" />
-                    <img className="vector-42" src="/src/assets/fillData/vector-420.svg" />
-                    <img className="vector-43" src="/src/assets/fillData/vector-430.svg" />
-                    <img className="vector-44" src="/src/assets/fillData/vector-440.svg" />
-                    <img className="vector-45" src="/src/assets/fillData/vector-450.svg" />
-                    <img className="vector-46" src="/src/assets/fillData/vector-460.svg" />
-                    <img className="vector-47" src="/src/assets/fillData/vector-470.svg" />
-                    <img className="vector-48" src="/src/assets/fillData/vector-480.svg" />
-                    <img className="vector-49" src="/src/assets/fillData/vector-490.svg" />
-                    <img className="untitled-1-jkj-12" src="/src/assets/fillData/2cc87b5fad166944e192b2b04dee9a34.png" />
-                    <img className="vector-110" src="/src/assets/fillData/vector-11.svg" />
-                    <img className="vector-210" src="/src/assets/fillData/vector-21.svg" />
-                    <img className="vector-310" src="/src/assets/fillData/vector-31.svg" />
-                    <img className="vector-410" src="/src/assets/fillData/vector-41.svg" />
-                    <img className="vector-52" src="/src/assets/fillData/vector-51.svg" />
-                    <img className="vector-62" src="/src/assets/fillData/vector-61.svg" />
-                    <img className="vector-72" src="/src/assets/fillData/vector-71.svg" />
-                    <img className="vector-82" src="/src/assets/fillData/vector-81.svg" />
-                    <img className="vector-92" src="/src/assets/fillData/vector-91.svg" />
-                    <img className="vector-102" src="/src/assets/fillData/vector-101.svg" />
-                    <img className="vector-112" src="/src/assets/fillData/vector-111.svg" />
-                    <img className="vector-122" src="/src/assets/fillData/vector-121.svg" />
-                    <img className="vector-132" src="/src/assets/fillData/vector-131.svg" />
-                    <img className="vector-142" src="/src/assets/fillData/vector-141.svg" />
-                    <img className="vector-152" src="/src/assets/fillData/vector-151.svg" />
-                    <img className="vector-162" src="/src/assets/fillData/vector-161.svg" />
-                    <img className="vector-172" src="/src/assets/fillData/vector-171.svg" />
-                    <img className="vector-182" src="/src/assets/fillData/vector-181.svg" />
-                    <img className="vector-192" src="/src/assets/fillData/vector-191.svg" />
-                    <img className="vector-202" src="/src/assets/fillData/vector-201.svg" />
-                    <img className="vector-212" src="/src/assets/fillData/vector-211.svg" />
-                    <img className="vector-222" src="/src/assets/fillData/vector-221.svg" />
-                    <img className="vector-232" src="/src/assets/fillData/vector-231.svg" />
-                    <img className="vector-242" src="/src/assets/fillData/vector-241.svg" />
-                    <img className="vector-252" src="/src/assets/fillData/vector-251.svg" />
-                    <img className="vector-262" src="/src/assets/fillData/vector-261.svg" />
-                    <img className="vector-272" src="/src/assets/fillData/vector-271.svg" />
-                    <img className="vector-282" src="/src/assets/fillData/vector-281.svg" />
-                    <img className="vector-292" src="/src/assets/fillData/vector-291.svg" />
-                    <img className="vector-302" src="/src/assets/fillData/vector-301.svg" />
-                    <img className="vector-312" src="/src/assets/fillData/vector-311.svg" />
-                    <img className="vector-322" src="/src/assets/fillData/vector-321.svg" />
-                    <img className="vector-332" src="/src/assets/fillData/vector-331.svg" />
-                    <img className="vector-342" src="/src/assets/fillData/vector-341.svg" />
-                    <img className="vector-352" src="/src/assets/fillData/vector-351.svg" />
-                    <img className="vector-362" src="/src/assets/fillData/vector-361.svg" />
-                    <img className="vector-372" src="/src/assets/fillData/vector-371.svg" />
-                    <img className="vector-382" src="/src/assets/fillData/vector-381.svg" />
-                    <img className="vector-392" src="/src/assets/fillData/vector-391.svg" />
-                    <img className="vector-402" src="/src/assets/fillData/vector-401.svg" />
-                    <img className="vector-412" src="/src/assets/fillData/vector-411.svg" />
-                    <img className="vector-422" src="/src/assets/fillData/vector-421.svg" />
-                    <img className="vector-432" src="/src/assets/fillData/vector-431.svg" />
-                    <img className="vector-442" src="/src/assets/fillData/vector-441.svg" />
-                    <img className="vector-452" src="/src/assets/fillData/vector-451.svg" />
-                    <img className="vector-462" src="/src/assets/fillData/vector-461.svg" />
-                    <img className="vector-472" src="/src/assets/fillData/vector-471.svg" />
-                    <img className="vector-482" src="/src/assets/fillData/vector-481.svg" />
-                    <img className="vector-492" src="/src/assets/fillData/vector-491.svg" />
-                    <img className="layer-1-1" src="/src/assets/fillData/ganesha.png" />
+                    <img className="untitled-1-jkj-1" src={untitled_1} />
+                    <img className="vector-1" src={vector_1} />
+                    <img className="vector-2" src={vector_11} />
+                    <img className="vector-3" src={vector_21} />
+                    <img className="vector-4" src={vector_31} />
+                    <img className="vector-5" src={vector_41} />
+                    <img className="vector-6" src={vector_51} />
+                    <img className="vector-7" src={vector_61} />
+                    <img className="vector-8" src={vector_71} />
+                    <img className="vector-9" src={vector_81} />
+                    <img className="vector-10" src={vector_91} />
+                    <img className="vector-11" src={vector_101} />
+                    <img className="vector-12" src={vector_111} />
+                    <img className="vector-13" src={vector_121} />
+                    <img className="vector-14" src={vector_131} />
+                    <img className="vector-15" src={vector_141} />
+                    <img className="vector-16" src={vector_151} />
+                    <img className="vector-17" src={vector_161} />
+                    <img className="vector-18" src={vector_171} />
+                    <img className="vector-19" src={vector_181} />
+                    <img className="vector-20" src={vector_191} />
+                    <img className="vector-21" src={vector_201} />
+                    <img className="vector-22" src={vector_211} />
+                    <img className="vector-23" src={vector_221} />
+                    <img className="vector-24" src={vector_231} />
+                    <img className="vector-25" src={vector_241} />
+                    <img className="vector-26" src={vector_251} />
+                    <img className="vector-27" src={vector_261} />
+                    <img className="vector-28" src={vector_271} />
+                    <img className="vector-29" src={vector_281} />
+                    <img className="vector-30" src={vector_291} />
+                    <img className="vector-31" src={vector_301} />
+                    <img className="vector-32" src={vector_311} />
+                    <img className="vector-33" src={vector_321} />
+                    <img className="vector-34" src={vector_331} />
+                    <img className="vector-35" src={vector_341} />
+                    <img className="vector-36" src={vector_351} />
+                    <img className="vector-37" src={vector_361} />
+                    <img className="vector-38" src={vector_371} />
+                    <img className="vector-39" src={vector_381} />
+                    <img className="vector-40" src={vector_391} />
+                    <img className="vector-41" src={vector_401} />
+                    <img className="vector-42" src={vector_411} />
+                    <img className="vector-43" src={vector_421} />
+                    <img className="vector-44" src={vector_431} />
+                    <img className="vector-45" src={vector_441} />
+                    <img className="vector-46" src={vector_451} />
+                    <img className="vector-47" src={vector_461} />
+                    <img className="vector-48" src={vector_471} />
+                    <img className="vector-49" src={vector_481} />
+                    <img className="vector-50" src={vector_491} />
+                    <img className="layer-1-1" src={ganesha} />
                     <img className="_5-e-08-fb-3676-f-1-c-66803-b-4-d-235-pillaiyar-suli-2873035222-1"
-                        src="/src/assets/fillData/5e08fb3676f1c66803b4d235_pillaiyar_suli-2873035222.png" />
-                    <img className="_1950026-2" src="/src/assets/fillData/1950026.png" />
-                    <img className="_1950026-1" src="/src/assets/fillData/1950026.png" />
-                    <img className="_1950026-4" src="/src/assets/fillData/1950026.png" />
-                    <img className="_7-f-231-f-5-f-63977976-f-1-dfa-0-d-94-a-92-c-1-cd-1" src="/src/assets/fillData/7f231f5f63977976f1dfa0d94a92c1cd.png" />
+                        src={pillaiyar_suli} />
+                    <img className="_1950026-2" src={image1950026} />
+                    <img className="_1950026-1" src={image1950026} />
+                    <img className="_1950026-4" src={image1950026} />
+                    <img className="_7-f-231-f-5-f-63977976-f-1-dfa-0-d-94-a-92-c-1-cd-1" src={image7f231f5f} />
+
                     <div className="div">
                         ஸ்ரீ ஹயக்ரீவா
                         <br />
@@ -159,9 +191,9 @@ function PrintDataComponent({ data }) {
                     </div>
 
                     <div className="_2-a">2A, நேதாஜி ரோடு, மஞ்சக்குப்பம், கடலூர்</div>
-                    <img className="untitled-1-jothidam-1" src="/src/assets/fillData/jothidam.jpg" />
+                    <img className="untitled-1-jothidam-1" src={jothidamImage} />
                     {/* <div className="rectangle-2"></div> */}
-                    <img className="_1950026-5" src="/src/assets/fillData/1950026.png" />
+                    <img className="_1950026-5" src={image1950026} />
                     {/* <div className="line-2"></div>
                     <div className="line-3"></div>
                     <div className="line-5"></div>
@@ -170,24 +202,25 @@ function PrintDataComponent({ data }) {
                     <div className="line-13"></div>
                     <div className="rectangle-3"></div>
                     <div className="div5">இராசி</div> */}
-                    <img className="_1541664-1" src="/src/assets/fillData/1541664.png" />
-                    <img className="vector-50" src="/src/assets/fillData/vector-500.svg" />
-                    <img className="vector-51" src="/src/assets/fillData/vector-510.svg" />
-                    <img className="vector-522" src="/src/assets/fillData/vector-520.svg" />
-                    <img className="vector-53" src="/src/assets/fillData/vector-530.svg" />
-                    <img className="vector-54" src="/src/assets/fillData/vector-540.svg" />
-                    <img className="vector-55" src="/src/assets/fillData/vector-550.svg" />
-                    <img className="vector-56" src="/src/assets/fillData/vector-560.svg" />
-                    <img className="vector-57" src="/src/assets/fillData/vector-570.svg" />
-                    <img className="vector-58" src="/src/assets/fillData/vector-580.svg" />
-                    <img className="vector-59" src="/src/assets/fillData/vector-590.svg" />
-                    <img className="vector-60" src="/src/assets/fillData/vector-600.svg" />
-                    <img className="vector-61" src="/src/assets/fillData/vector-610.svg" />
-                    <img className="vector-622" src="/src/assets/fillData/vector-620.svg" />
-                    <img className="vector-63" src="/src/assets/fillData/vector-630.svg" />
-                    <img className="vector-64" src="/src/assets/fillData/vector-640.svg" />
-                    <img className="vector-65" src="/src/assets/fillData/vector-650.svg" />
-                    <img className="_84-f-7-be-2-f-8-db-3-f-93-c-483-d-1-a-65-a-755025-a-1" src="/src/assets/fillData/84f7be2f8db3f93c483d1a65a755025a.png" />
+                    <img className="_1541664-1" src={image1541664} />
+                    <img className="vector-50" src={vector500} />
+                    <img className="vector-51" src={vector510} />
+                    <img className="vector-522" src={vector520} />
+                    <img className="vector-53" src={vector530} />
+                    <img className="vector-54" src={vector540} />
+                    <img className="vector-55" src={vector550} />
+                    <img className="vector-56" src={vector560} />
+                    <img className="vector-57" src={vector570} />
+                    <img className="vector-58" src={vector580} />
+                    <img className="vector-59" src={vector590} />
+                    <img className="vector-60" src={vector600} />
+                    <img className="vector-61" src={vector610} />
+                    <img className="vector-622" src={vector620} />
+                    <img className="vector-63" src={vector630} />
+                    <img className="vector-64" src={vector640} />
+                    <img className="vector-65" src={vector650} />
+                    <img className="_84-f-7-be-2-f-8-db-3-f-93-c-483-d-1-a-65-a-755025-a-1" src={image84f7be2f} />
+
                     {/* <div className="rectangle-4" style={image_style}></div> */}
                     <img
                         src={imagePath} // Dynamically set the image source
@@ -275,7 +308,7 @@ function PrintDataComponent({ data }) {
                         <table>
                             <tr>
                                 <th>பெயர்: </th>
-                                <td style={{color: "green", fontSize:12+'px', fontWeight: 'bolder'}}>{data.name || "<name>"}</td>
+                                <td style={{ color: "green", fontSize: 12 + 'px', fontWeight: 'bolder' }}>{data.name || "<name>"}</td>
                             </tr>
                             <tr>
                                 <th>படிப்ப: </th>
@@ -294,10 +327,10 @@ function PrintDataComponent({ data }) {
                                 <th>பிறப்பு :  <span>{data.birth || "<birth>"}</span></th>
                             </tr><tr>
                                 <th>தந்தை பெயர்: </th>
-                                <td style={{color: "red", fontSize:11+'px', fontWeight: 'bolder'}}>{data.father_name || "<father_name>"}</td>
+                                <td style={{ color: "red", fontSize: 11 + 'px', fontWeight: 'bolder' }}>{data.father_name || "<father_name>"}</td>
                             </tr><tr>
                                 <th>தாயார் பெயர்: </th>
-                                <td style={{color: "red", fontSize:11+'px', fontWeight: 'bolder'}}>{data.mother_name || "<mother_name>"}</td>
+                                <td style={{ color: "red", fontSize: 11 + 'px', fontWeight: 'bolder' }}>{data.mother_name || "<mother_name>"}</td>
                             </tr>
                             <tr>
                                 <th>உடன் பிறப்பு:  </th>
@@ -329,7 +362,7 @@ function PrintDataComponent({ data }) {
                             </tr>
                             <tr>
                                 <th>எதிர்பார்ப்பு: </th>
-                                <td style={{color: "red", fontSize:12+'px', fontWeight: 'bolder'}}>{data.expectation || "<expectation>"}</td>
+                                <td style={{ color: "red", fontSize: 12 + 'px', fontWeight: 'bolder' }}>{data.expectation || "<expectation>"}</td>
                             </tr>
                             <tr>
                                 <th>செல்: </th>

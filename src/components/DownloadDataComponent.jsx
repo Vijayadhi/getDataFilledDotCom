@@ -298,8 +298,8 @@ function DownloadDataComponent({ data }) {
                                     <div class="sdfnv-msd-mds11">{data.raasi.k7}</div>
                                     <div class="sdfnv-msd-mds12">{data.raasi.k5}</div>
                                     <div className="div5">இராசி </div>
-                                    <img className="ff-copy-1" src="\src\assets\fillData\ff-copy.png" />
-                                </div>
+                                    <img className="ff-copy-1" src={ffCopyImage} />
+                                    </div>
                                 <div className='amsam'>
                                     <div class="outer-rect"></div>
                                     <div class="first"></div>

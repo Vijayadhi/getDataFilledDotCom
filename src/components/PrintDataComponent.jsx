@@ -4,6 +4,8 @@ import "../assets/css/vars.css"
 
 import jothidamImage from "../assets/fillData/jothidam.jpg";
 // import image1950026 from "../assets/fillData/1950026.png";
+import ffCopyImage from "../assets/fillData/ff-copy.png";
+import rectangleImage from "../assets/fillData/rectangle-50.svg";
 import rectagle_1 from "../assets/fillData/rectangle-10.svg";
 import vector_1 from "../assets/fillData/vector-10.svg";
 import untitled_1 from "../assets/fillData/2cc87b5fad166944e192b2b04dee9a34.png";
@@ -258,7 +260,7 @@ function PrintDataComponent({ data }) {
                         <div class="sdfnv-msd-mds12">{data.raasi.k5}</div>
                         <div className="div5">இராசி </div>
 
-                        <img className="ff-copy-1" src="/src/assets/fillData/ff-copy.png" />
+                                <img className="ff-copy-1" src={ffCopyImage} />
 
                         {/* <div class="sdfnv-msd-mds13">{data.raasi.k1}</div> */}
                         {/* </div> */}
@@ -301,8 +303,8 @@ function PrintDataComponent({ data }) {
 
                     </div>
                     <div className="div6">அம்சம்</div>
-                    <img className="ff-copy-2" src="/src/assets/fillData/ff-copy.png" />
-                    <img className="rectangle-5" src="/src/assets/fillData/rectangle-50.svg" />
+                    <img className="ff-copy-2" src={ffCopyImage} />
+                    <img className="rectangle-5" src={rectangleImage} />
                     <div className="div7">இனம்: {data.caste}</div>
                     <div className='new'>
                         <table>

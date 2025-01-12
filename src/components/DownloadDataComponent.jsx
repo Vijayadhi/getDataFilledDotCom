@@ -8,6 +8,9 @@ import HeaderComponent from './HeaderComponent';
 
 
 import jothidamImage from "../assets/fillData/jothidam.jpg";
+import ffCopyImage from "../assets/fillData/ff-copy.png";
+import rectangleImage from "../assets/fillData/rectangle-50.svg";
+
 // import image1950026 from "../assets/fillData/1950026.png";
 import rectagle_1 from "../assets/fillData/rectangle-10.svg";
 import vector_1 from "../assets/fillData/vector-10.svg";
@@ -320,8 +323,9 @@ function DownloadDataComponent({ data }) {
                                     <div class="sdfnv-msd-mds12">{data.amsam.k5}</div>
                                 </div>
                                 <div className="div6">அம்சம்</div>
-                                <img className="ff-copy-2" src="\src\assets\fillData\ff-copy.png" />
-                                <img className="rectangle-5" src="\src\assets\fillData\rectangle-50.svg" />
+                                <img className="ff-copy-2" src={ffCopyImage} />
+<img className="rectangle-5" src={rectangleImage} />
+
                                 <div className="div7">இனம்: {data.caste}</div>
                                 <div className='new'>
                                     <table>

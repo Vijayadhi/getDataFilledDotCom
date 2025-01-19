@@ -138,7 +138,7 @@ function DownloadDataComponent({ data }) {
     return (
         <>
             <HeaderComponent /><br />
-            <Box className="container" style={{ maxWidth: '81%' }}>
+            <Box className="container" style={{ maxWidth: '1245'+'px' }}>
                 <Box className="row">
                     <Box className="col-md">
                         <div

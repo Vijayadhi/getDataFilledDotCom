@@ -120,17 +120,15 @@ function FillDataComponent({ formData, setFormData }) {
                                 <TextField fullWidth label="பதிவு எண்" name="reg_num" margin="normal" onChange={handleInputChange} value={formData.reg_num} />
                                 <TextField fullWidth label="பெயர்" name="name" margin="normal" onChange={handleInputChange} value={formData.name} />
 
-                                <TextField fullWidth label="படிப்பு" name="education" margin="normal" onChange={handleInputChange} />
                                 <TextField fullWidth label="சம்பளம்" name="salary" type="number" margin="normal" onChange={handleInputChange} />
                                 <TextField fullWidth label="உயரம்" name="height" margin="normal" onChange={handleInputChange} />
-                                <TextField fullWidth label="பிறப்பு" name="birth" margin="normal" onChange={handleInputChange} />
                                 <hr />
                                 <TextField fullWidth label="தந்தை பெயர்" name="father_name" margin="normal" onChange={handleInputChange} />
                                 <TextField fullWidth label="தந்தை வேலை" name="father_job" margin="normal" onChange={handleInputChange} />
 
-                                <TextField fullWidth label="உடன் பிறப்பு" name="siblings" margin="normal" onChange={handleInputChange} />
                                 <TextField fullWidth label="முகவரி" name="address" multiline rows={4} margin="normal" onChange={handleInputChange} />
-                                <TextField fullWidth label="செல்" name="phone_number" margin="normal" onChange={handleInputChange} />
+                                <br/><br/>
+                                <hr />
                                 <TextField
                                     fullWidth
                                     select
@@ -147,11 +145,10 @@ function FillDataComponent({ formData, setFormData }) {
                                         </MenuItem>
                                     ))}
                                 </TextField>
-                                <TextField fullWidth label="பிறந்த தேதி" name="dob" type="date" InputLabelProps={{ shrink: true }} margin="normal" onChange={handleInputChange} />
+
 
                                 <TextField fullWidth label="திசை இருப்பு" name="dt" margin="normal" onChange={handleInputChange} />
-
-
+                                <br/><br/> <br/><br/> <br/><br/> <br/><br/> <br/><hr/>
                                 <div class="custom-grid">
                                     <div class="custom-cell">
                                         <input type="text" placeholder="" name="k1"
@@ -207,8 +204,7 @@ function FillDataComponent({ formData, setFormData }) {
                                         <input type="text" placeholder="" name='k12' onChange={handleRaasiKattamChange} />
                                     </div>
                                 </div><br /><br />
-                                <button type="reset" className='btn'>reset</button><br /><br />
-                                <Link type="submit" className='btn' to='/download_data'>Print Preview</Link><br /><br />
+                                
 
 
                                 {/* </Box> */}
@@ -220,16 +216,16 @@ function FillDataComponent({ formData, setFormData }) {
                                 <TextField fullWidth label="வேலை" name="job" margin="normal" onChange={handleInputChange} />
 
                                 <TextField fullWidth label="நிறம்" name="skin_color" margin="normal" onChange={handleInputChange} />
-                                <br /><br /><br /><br /><br /><br /><br /><br />
                                 <hr />
+
+
                                 <TextField fullWidth label="தாயர் பெயர்" name="mother_name" margin="normal" onChange={handleInputChange} />
                                 <TextField fullWidth label="தாயர் வேலை" name="mother_job" margin="normal" onChange={handleInputChange} />
                                 <TextField fullWidth label="சொத்து விபரம்" name="property_details" margin="normal" onChange={handleInputChange} />
+                                <TextField fullWidth label="உடன் பிறப்பு" name="siblings" margin="normal" onChange={handleInputChange} />
 
-                                <TextField fullWidth label="சொந்த ஊர் " name="native" margin="normal" onChange={handleInputChange} />
-                                <TextField fullWidth label="பிறந்த நேரம்" name="dot" type="time" InputLabelProps={{ shrink: true }} margin="normal" onChange={handleInputChange} />
-                                <TextField fullWidth label="லக்னம்" name="lagnam" margin="normal" onChange={handleInputChange} />
-
+{/* <br/><br/><br/><br/> */}
+                                <br/><br/><hr />
                                 <TextField
                                     fullWidth
                                     select
@@ -246,23 +242,15 @@ function FillDataComponent({ formData, setFormData }) {
                                         </MenuItem>
                                     ))}
                                 </TextField>
-                                <TextField fullWidth label="எதிர்பார்ப்பு " name="expectation" margin="normal" onChange={handleInputChange} />
+                                <br/>   <br/>
                                 <label>புகைப்படம்:</label>
                                 <input
                                     type="file"
                                     accept="image/*"
                                     onChange={handleImageUpload}
                                 />
-                                {imagePreview && (
-                                    <div>
-                                        <p>புகைப்படத்தின் முன்னோட்டம்:</p>
-                                        <img
-                                            src={imagePreview}
-                                            alt="Uploaded Preview"
-                                            style={{ width: "200px", height: "200px", objectFit: "cover" }}
-                                        />
-                                    </div>
-                                )}
+                                <br/><br/> <br/><br/> <br/><br/> <br/><br/> <br/>
+                                <hr/>
 
                                 <div class="custom-grid">
                                     <div class="custom-cell">
@@ -322,9 +310,57 @@ function FillDataComponent({ formData, setFormData }) {
                                 <br />
                             </Box>
                             <Box className="col-md">
-                                <div className='preview'>
+                                <br />
+                                <br />
+                                <br />
+                                {/* <br /> */}
+                                <TextField fullWidth label="படிப்பு" name="education" margin="normal" onChange={handleInputChange} />
+                                <TextField fullWidth label="பிறப்பு" name="birth" margin="normal" onChange={handleInputChange} />
+                                <TextField fullWidth label="செல்" name="phone_number" margin="normal" onChange={handleInputChange} />
+                                <hr/>
+                                <TextField fullWidth label="எதிர்பார்ப்பு  "name="expectation" margin="normal" onChange={handleInputChange} />
+
+                                <TextField fullWidth label="சொந்த ஊர் " name="native" margin="normal" onChange={handleInputChange} />
+                                <TextField fullWidth label="பிறந்த தேதி" name="dob" type="date" InputLabelProps={{ shrink: true }} margin="normal" onChange={handleInputChange} />
+
+                                <TextField fullWidth label="பிறந்த நேரம்" name="dot" type="time" InputLabelProps={{ shrink: true }} margin="normal" onChange={handleInputChange} />
+
+
+                                <br />
+                                <br />
+
+                                <hr />
+                                {/* <br /> */}
+                                {/* <br /> */}
+                                {/* <br />
+
+                                <br />
+                                <br /> */}
+{/* 
+                                <br />
+                                <br />
+                                <br /> */}
+
+                                <TextField fullWidth label="லக்னம்" name="lagnam" margin="normal" onChange={handleInputChange} />
+                                <br/>   <br/>
+                                <p>புகைப்படத்தின் முன்னோட்டம்:</p>
+                                {imagePreview && (
+                                    <div>
+                                        
+                                        <img
+                                            src={imagePreview}
+                                            alt="Uploaded Preview"
+                                            style={{ width: "200px", height: "200px", objectFit: "cover" }}
+                                        />
+                                    </div>
+                                )}  <br/><hr/><br/> <br/><br/> 
+                               
+                                <button type="reset" className='btn btn-warning fw-bold btn-lg'>reset</button>&nbsp;
+                                <Link type="submit" className='btn fw-bold btn-lg' to='/download_data'>Print Preview</Link><br /><br />
+
+                                {/* <div className='preview'>
                                     <PrintDataComponent data={formData} />
-                                </div>
+                                </div> */}
                             </Box>
                         </Box>
                     </Box>

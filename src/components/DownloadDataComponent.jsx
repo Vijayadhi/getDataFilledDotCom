@@ -86,10 +86,12 @@ import vector630 from "../assets/fillData/vector-630.svg";
 import vector640 from "../assets/fillData/vector-640.svg";
 import vector650 from "../assets/fillData/vector-650.svg";
 import image84f7be2f from "../assets/fillData/84f7be2f8db3f93c483d1a65a755025a.png";
+import { useNavigate } from 'react-router-dom';
 
 function DownloadDataComponent({ data }) {
     localStorage.setItem('formData', JSON.stringify(data));
     const [loading, setLoading] = useState(false); // State to track loading status
+    const navigate = useNavigate();
 
     const imagePath = data.profileImage; // Your image path stored separately
     const handlePrint = async () => {
@@ -124,6 +126,11 @@ function DownloadDataComponent({ data }) {
             setLoading(false); // Set loading to false after download is complete
         }
     };
+    const handleBack = ()=>{
+        navigate('/getDataFilled');
+        // window.location('/')
+        // window.href('/')
+    }
 
 
 
@@ -299,7 +306,7 @@ function DownloadDataComponent({ data }) {
                                     <div class="sdfnv-msd-mds12">{data.raasi.k5}</div>
                                     <div className="div5">இராசி </div>
                                     <img className="ff-copy-1" src={ffCopyImage} />
-                                    </div>
+                                </div>
                                 <div className='amsam'>
                                     <div class="outer-rect"></div>
                                     <div class="first"></div>
@@ -324,7 +331,7 @@ function DownloadDataComponent({ data }) {
                                 </div>
                                 <div className="div6">அம்சம்</div>
                                 <img className="ff-copy-2" src={ffCopyImage} />
-<img className="rectangle-5" src={rectangleImage} />
+                                <img className="rectangle-5" src={rectangleImage} />
 
                                 <div className="div7">இனம்: {data.caste}</div>
                                 <div className='new'>
@@ -397,6 +404,9 @@ function DownloadDataComponent({ data }) {
                         </div>
                     </Box>
                     <Box className="col-md">
+                   
+                        <button type="button" className='btn btn-primary fw-bold btn-lg' onClick={handleBack}>Back</button> &nbsp;
+                        &nbsp;&nbsp;&nbsp;
                         <button
                             onClick={handlePrint}
                             style={{
@@ -428,6 +438,7 @@ function DownloadDataComponent({ data }) {
                                 ></div>
                                 <p style={{ marginTop: '10px' }}>Please wait, generating your PDF...</p>
                             </div>
+
                         )}
                     </Box>
                 </Box>
